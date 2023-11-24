@@ -1,0 +1,19 @@
+:root {
+    --bgColor: var(--bgColor);
+}
+
+body {
+    background-color: var(--bgColor);
+    animation: colorChange 0.1s alternate infinite;
+}
+
+@keyframes colorChange {
+    to {
+        opacity: 1;
+    }
+    
+    from {
+        opacity: 1;
+        background-color: var(--bgColor);
+    }
+}
